@@ -1,0 +1,11 @@
+{
+  "ApplicationProcesses": 0,
+  "DisabledRules": 0,
+  "UserConfirmedPlayback": true,
+  "SessionWatchers": 0,
+  "FirewallRules": 31,
+  "UserConfirmedBackgroundExit": true,
+  "Result": "PASS",
+  "MainProcesses": 0,
+  "Version": 1
+}

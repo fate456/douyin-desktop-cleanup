@@ -1,0 +1,2 @@
+# Preserve PowerShell encoding, original line endings, and release manifest hashes.
+* -text

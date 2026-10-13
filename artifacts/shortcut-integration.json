@@ -1,0 +1,8 @@
+{
+    "ExitCode":  0,
+    "Version":  1,
+    "Checks":  [
+                   "Install, verify, reinstall, revert restores an absent original.",
+                   "Existing shortcut original bytes survive installation and restoration."
+               ]
+}

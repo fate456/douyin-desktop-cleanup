@@ -1,0 +1,45 @@
+PASS Sidecars do not keep the session alive
+PASS Same main name outside the installation is ignored
+PASS Unreadable main path prevents cleanup
+PASS Unknown or foreign crash reporter paths are never selected
+PASS Unlisted installation worker is cleaned after main exits
+PASS Remaining installation worker prevents a successful completion
+PASS Main exit is detected even while guard remains
+PASS Reopen within grace period keeps the watcher waiting
+PASS Startup timeout is reported without an infinite wait
+PASS PID reuse is rejected before termination
+PASS Matching process identity can be terminated
+PASS Reopen before second cleanup preserves the new session
+PASS Firewall mutation failure invalidates cache
+PASS Firewall verification catches silently ignored changes
+PASS Firewall changes are batched and checked before caching
+PASS Blocking without rules cannot report success
+PASS Lockdown enables already existing disabled rules
+PASS Custom configuration is forwarded to child processes
+PASS Firewall discovery is scoped to the installation directory
+PASS Missing entry executable does not open the firewall
+PASS Application launch failure restores network blocking
+PASS Watcher launch failure restores network blocking
+PASS Application launch uses a limited interactive task and removes it
+PASS Task discovery ignores unrelated cleanup scripts
+PASS Cached state expires and is scoped to the configured root
+PASS Context mutex supports exclusive ownership
+PASS Transient cleanup failure is retried and zero verified
+PASS Unknown path cannot be reported as zero processes
+PASS Guardian is terminated before workers regardless of PID
+PASS Firewall coverage adds new files and prunes obsolete rules
+PASS Readiness is acknowledged through the actual named event
+PASS Readiness event refuses arbitrary external names
+PASS Private diagnostics redact configured paths
+PASS Repeated atomic writes leave complete JSON without temporary files
+PASS Task baseline preserves the first enabled state across repeats
+PASS Unrelated same-name scheduled task cannot be overwritten
+PASS Legacy unlock without snapshots does not reset third-party settings
+PASS Installation boundary rejects sibling names and parent traversal
+PASS Malformed recovery is rejected before restoring any service
+PASS Restoration uses recorded startup and task enabled states
+PASS Broad system directory cannot be selected as a cleanup root
+PASS A directory without the application entry cannot be selected
+PASS Existing recovery does not allow overwriting a replaced task
+PASS Marked same-context task is recognized after moving the checkout
+Results: 44 passed, 0 failed

@@ -1,0 +1,11 @@
+{
+    "ExitCode":  0,
+    "Version":  1,
+    "Checks":  [
+                   "Real limited user launch; temporary launch task removed.",
+                   "Real running main protects its workers.",
+                   "Real CIM identity verification and cleanup reaches zero.",
+                   "Real hidden watcher readiness, startup timeout, firewall coverage and cleanup.",
+                   "Isolated fixtures and firewall rules removed."
+               ]
+}

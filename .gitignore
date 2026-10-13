@@ -1,0 +1,14 @@
+# Machine-specific state is stored in local application data, never in source.
+*.lnk
+*.log
+*.old
+*.tmp
+logs/
+backup/
+.private/
+settings.json
+last-status.txt
+net-state.txt
+net-state.json
+recovery*.json
+artifacts/*.zip
