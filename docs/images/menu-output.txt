@@ -24,4 +24,3 @@
                      (keeps the original Douyin icon)
 
   [9] Exit
-
