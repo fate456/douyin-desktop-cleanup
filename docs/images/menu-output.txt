@@ -1,0 +1,27 @@
+============================================================
+  Douyin Killer
+  Target directory: auto-detected; DOUYIN_ROOT overrides it
+============================================================
+
+  --- DAILY USE ---
+  [1] Open Douyin  - allow net + launch + auto-clean on exit
+                     (same as Start-Douyin.bat, one UAC)
+  [2] Finish       - block net + kill residue (if you launched
+                     Douyin by some other way)
+
+  --- DIAGNOSTICS ---
+  [3] Status       - health check only, changes nothing
+
+  --- SINGLE ACTIONS ---
+  [4] Clean        - kill residual processes only
+  [5] Block        - block network only
+  [6] Allow        - open network only
+
+  --- SETUP ---
+  [7] Lockdown     - first-time setup (autostart off + net block)
+  [8] Unlock       - restore everything to default
+  [S] Fix shortcut - point the Start Menu "Douyin" icon here
+                     (keeps the original Douyin icon)
+
+  [9] Exit
+

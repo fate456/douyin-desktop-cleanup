@@ -1,0 +1,46 @@
+{
+  "Version": 1,
+  "Result": "PASS",
+  "Images": [
+    {
+      "File": "docs/images/download.jpg",
+      "Sha256": "07e08396c8e24a817a2d95544f0afe44f1884e91124b0cb8f8ecddb14b1c768d",
+      "Dimensions": [
+        1265,
+        712
+      ],
+      "ExifOrXmp": false,
+      "CommentMetadata": false,
+      "VisualPrivacyReview": "PASS"
+    },
+    {
+      "File": "docs/images/menu.jpg",
+      "Sha256": "cfaf988276e072cb0fa574d69dfb9b7a3a716cc12d582167b4d7939b4f8cac18",
+      "Dimensions": [
+        1265,
+        864
+      ],
+      "ExifOrXmp": false,
+      "CommentMetadata": false,
+      "VisualPrivacyReview": "PASS"
+    },
+    {
+      "File": "docs/images/status.jpg",
+      "Sha256": "317622c6e1ee6877e895985d081dde49a8c8663176e0c1665143ca1912ba206d",
+      "Dimensions": [
+        1265,
+        731
+      ],
+      "ExifOrXmp": false,
+      "CommentMetadata": false,
+      "VisualPrivacyReview": "PASS"
+    }
+  ],
+  "Banner": "docs/images/hero.svg",
+  "LocalDocumentationLinks": "PASS",
+  "StatusCommandExitCode": 0,
+  "StatusTimeRemoved": true,
+  "AccountAreaIncluded": false,
+  "ScreenshotSources": "GitHub release page; script menu text; read-only Status output. Text output images are explicitly labelled as presentation.",
+  "PersonalPathsOrIdentifiersVisible": false
+}
