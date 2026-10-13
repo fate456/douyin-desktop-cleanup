@@ -36,7 +36,7 @@ echo   [6] Allow        - open network only
 echo.
 echo   --- SETUP ---
 echo   [7] Lockdown     - first-time setup (autostart off + net block)
-echo   [8] Unlock       - restore everything to default
+echo   [8] Unlock       - restore recorded settings + remove isolation
 echo   [S] Fix shortcut - point the Start Menu "Douyin" icon here
 echo                      (keeps the original Douyin icon)
 echo.
@@ -60,7 +60,7 @@ echo.
 "%PS%" -NoProfile -ExecutionPolicy Bypass -File "%~dp0DouyinKiller.ps1" -Action Session
 if errorlevel 1 goto failed
 echo.
-echo   Douyin is starting. Close it whenever you like --
+echo   Douyin is starting. Fully exit from the tray/background --
 echo   cleanup will happen automatically.
 echo.
 pause

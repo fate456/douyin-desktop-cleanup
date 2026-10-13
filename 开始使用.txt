@@ -1,0 +1,26 @@
+抖音清道夫 · 下载包使用说明
+==========================
+
+1. 把整个 DouyinCleanup 文件夹解压到固定目录。
+2. 双击 Start-Douyin.bat，允许管理员权限提示。
+3. 正常使用抖音；用完后从托盘或后台彻底退出主程序。
+   工具确认退出后会自动隔离网络、清理残留并复查。
+
+日常只需 Start-Douyin.bat。关闭窗口后如果抖音仍在托盘，
+工具会继续等待；默认每 1 秒检查，退出确认 2 秒，清理还需要时间。
+
+需要检查结果时，打开 Run-DouyinKiller.bat，选择 [3] Status。
+需要手动收尾时，先退出后台，再选择 [2] Finish。
+开始菜单快捷方式可通过 Install-DouyinShortcut.bat 安装。
+
+运行环境：Windows 10 / 11，自带 Windows PowerShell 5.1，
+Windows 防火墙与任务计划程序可用，并已安装抖音电脑版。
+安装位置从注册表自动识别；识别失败时，可设置 DOUYIN_ROOT。
+
+管理员权限用于防火墙控制；抖音应用本身以普通用户权限启动。
+日志与恢复资料在 %LOCALAPPDATA%\DouyinCleanup，保留这些资料
+直到不再需要恢复。菜单 Unlock 恢复已记录的配置并移除隔离。
+
+完整说明见 README.txt；图文说明见 README.md。
+版本号见 VERSION。源码、更新与下载：
+https://github.com/fate456/douyin-desktop-cleanup

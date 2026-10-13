@@ -19,7 +19,7 @@
 
   --- SETUP ---
   [7] Lockdown     - first-time setup (autostart off + net block)
-  [8] Unlock       - restore everything to default
+  [8] Unlock       - restore recorded settings + remove isolation
   [S] Fix shortcut - point the Start Menu "Douyin" icon here
                      (keeps the original Douyin icon)
 

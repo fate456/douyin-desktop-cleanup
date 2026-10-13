@@ -9,7 +9,7 @@ rem  One-click Douyin session launcher
 rem    1. opens the firewall for Douyin
 rem    2. launches the detected Douyin installation
 rem    3. attaches a hidden watcher
-rem    4. when you close Douyin -> blocks net + kills all residue
+rem    4. after background exit -> blocks net + cleans verified residue
 rem
 rem  Pin this file to the taskbar / Start Menu for one-click use.
 rem ============================================================
@@ -44,8 +44,9 @@ if errorlevel 1 (
 
 echo.
 echo   Douyin is running. Nothing else to do.
-echo   When you close Douyin, the network will be blocked again
+echo   After you fully exit Douyin from the tray/background,
+echo   the network will be blocked again
 echo   and all residual processes will be cleaned automatically.
 echo.
-timeout /t 2 >nul
+"%PS%" -NoProfile -Command "Start-Sleep -Seconds 2"
 exit /b 0

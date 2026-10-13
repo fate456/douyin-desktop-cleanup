@@ -7,6 +7,7 @@
 
 使用
 ----
+下载包内的“开始使用.txt”提供三步操作；VERSION 记录包版本。
 日常双击 Start-Douyin.bat。防火墙管理需要一次 UAC 提权，
 抖音应用通过普通用户的交互式任务启动，临时启动任务随后移除。
 安装目录读取系统注册信息，无需在代码内填写本机路径。
@@ -73,6 +74,8 @@ Status 默认不写文件；-SaveStatus 会将遮蔽路径后的报告保存到�
   powershell -NoProfile -ExecutionPolicy Bypass -File .\tests\Integration.Tests.ps1
 快捷方式隔离测试（不会修改实际开始菜单）：
   powershell -NoProfile -ExecutionPolicy Bypass -File .\tests\Shortcut.Tests.ps1
+解压包验证（需要管理员；真实 BAT 启动临时程序，不启动实际抖音）：
+  powershell -NoProfile -ExecutionPolicy Bypass -File .\tests\Package.Tests.ps1
 项目和压缩包敏感信息审查：
   powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\Review-Project.ps1
 按明确文件清单构建分享包（不包含本地 Git 元数据和运行资料）：

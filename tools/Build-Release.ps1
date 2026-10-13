@@ -10,18 +10,18 @@ $sourceFiles=@(
     'DouyinKiller.ps1','Douyin.Common.ps1','Douyin.Restore.ps1',
     'Start-Douyin.bat','Run-DouyinKiller.bat',
     'Install-DouyinShortcut.ps1','Install-DouyinShortcut.bat',
-    'douyin.ico','README.txt','README.md','LICENSE','.gitignore','.gitattributes',
+    'douyin.ico','README.txt','README.md','开始使用.txt','VERSION','LICENSE','.gitignore','.gitattributes',
     '.github/workflows/checks.yml',
     'docs/images/hero.svg','docs/images/download.jpg','docs/images/menu.jpg','docs/images/status.jpg',
     'docs/images/README.md','docs/images/menu-output.txt','docs/images/status-output.txt',
-    'tests/Regression.Tests.ps1','tests/Integration.Tests.ps1','tests/Shortcut.Tests.ps1',
+    'tests/Regression.Tests.ps1','tests/Integration.Tests.ps1','tests/Shortcut.Tests.ps1','tests/Package.Tests.ps1',
     'tools/Review-Project.ps1','tools/Migrate-PrivateArtifacts.ps1','tools/Build-Release.ps1'
 )
 $evidenceFiles=@(
     'artifacts/code-review.txt','artifacts/regression.txt','artifacts/integration.json',
     'artifacts/shortcut-integration.json','artifacts/live-acceptance.json',
-    'artifacts/privacy-review.json','artifacts/source-hashes.txt'
-    'artifacts/presentation-review.json'
+    'artifacts/privacy-review.json','artifacts/source-hashes.txt',
+    'artifacts/presentation-review.json','artifacts/package-validation.json'
 )
 $files=@($sourceFiles)+@($evidenceFiles)
 foreach($relative in $files){

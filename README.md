@@ -32,6 +32,8 @@
 
 防火墙控制需要管理员权限；**抖音本身以普通用户权限启动**。安装目录默认从注册表识别，通常无需填写路径。
 
+下载包内附 [开始使用.txt](开始使用.txt)，解压后即可按说明操作。无需编译项目或安装开发工具。
+
 <details>
 <summary><b>📦 下载位置看这里</b></summary>
 
@@ -71,6 +73,8 @@
 | 当前出站隔离规则 | **全部恢复启用** |
 
 可查看 [实机验收记录](artifacts/live-acceptance.json)、[44 项模拟回归](artifacts/regression.txt)、[Windows 隔离测试](artifacts/integration.json)和[快捷方式测试](artifacts/shortcut-integration.json)。GitHub Actions 会自动运行模拟回归及源码隐私检查。
+
+[下载包验证记录](artifacts/package-validation.json)覆盖解压文件的哈希、脚本解析、文档图片，以及实际 BAT 启动、普通用户权限和退出后的自动收尾；使用独立临时程序验证。
 
 图片来源：[说明与脱敏记录](docs/images/README.md)。横幅为流程示意；菜单图来自脚本原文，体检图来自真实只读输出，均为文本排版展示。下载图为真实 GitHub 页面截图。
 
